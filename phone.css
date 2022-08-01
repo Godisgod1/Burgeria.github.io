@@ -1,0 +1,28 @@
+#nave {
+    flex-direction: column;
+}
+
+#hero img{
+    display: none;
+}
+
+#home1{
+    background-image: none;
+    background-attachment: none;
+}
+
+#nave ul {
+    flex-direction: column;
+    display: block;
+}
+
+#menupagetop h3{
+    font-size: 22px;
+    color: white;
+}
+
+#menupagetop h1{
+    font-size: 60px;
+    color: white;
+    padding-bottom: 110px;
+}
