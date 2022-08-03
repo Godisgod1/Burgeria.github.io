@@ -614,3 +614,189 @@ p {
     display: flex;
     flex-direction: column;
 }
+
+#menupagetop{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 80px;
+    font-family: sans-serif;
+}
+
+#menupagetop h3{
+    font-size: 26px;
+    color: white;
+}
+
+#menupagetop h1{
+    font-size: 125px;
+    color: white;
+    padding-bottom: 110px;
+}
+
+#extras{
+    display: flex;
+    justify-content: center;
+    margin-left: -55px;
+    padding-bottom: 95px;
+}
+
+#extraunit{
+    display: flex;
+    width: 500px;
+}
+
+#rates{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+#midrate{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#hr{
+    width: 122%;
+    margin-left:60px
+}
+
+
+
+@media only screen and (max-width:703px) {
+    #nave {
+        flex-direction: column;
+    }
+    
+    #hero img{
+        display: none;
+    }
+    
+    #home1{
+        background-image: none;
+    }
+    
+    #nave ul {
+        flex-direction: column;
+        display: block;
+    }
+    
+    #menupagetop h3{
+        font-size: 28px;
+        color: white;
+    }
+    
+    #menupagetop h1{
+        font-size: 70px;
+        color: white;
+        padding-bottom: 110px;
+    }
+
+    #only {
+        font-size: 5px;
+    }
+    
+    #the {
+        font-size: 50px;
+    }
+    
+    #smok {
+        font-size: 50px;
+    }
+
+    #layer1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #layer1 img{
+        height: 220px;
+        width: 220px;
+    }
+    
+    #l1 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    #tra1 {
+        flex-direction: column;
+    }
+
+    #l11 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #layer2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -110px;
+    }
+
+    #layer2 img{
+        height: 220px;
+        width: 220px;
+    }
+
+    #l2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #tra1 div{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #extras{
+        flex-direction: column;
+    }
+
+    #rates{
+        display: none;
+    }
+
+    #app{
+        flex-direction: column;
+    }
+
+    #appphoto{
+        height: 350px;
+        width: 350px;
+        margin-left: -160px;
+    }
+
+    #copyr{
+        flex-direction: column;
+    }
+
+    #copyr a h6{
+        padding-left: 0px;
+    }
+
+    #footnave{
+       flex-direction: column;
+    }
+
+    #logos1{
+        padding-left: 0px;
+        margin-left: -60px;
+    }
+    
+    #hr{
+        width: 80%;
+        margin-left:60px
+    }
+
+    #extras p{
+        width: 70%;
+    }
+
+    #extras h1{
+        width: 70%;
+    }
+ 
+}
